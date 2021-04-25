@@ -1,24 +1,24 @@
-# DB設計
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
+Things you may want to cover:
 
-## categoriesテーブル
+* Ruby version
 
-| Column | Type   | Options     |
-| ------ | ------ | ----------- |
-| name   | string | null: false |
+* System dependencies
 
-### Association
-- has_many :ideas
+* Configuration
 
+* Database creation
 
+* Database initialization
 
-## ideasテーブル
+* How to run the test suite
 
-| Column      | Type       | Options           |
-| ----------- | ---------- | ----------------- |
-| body        | text       | null: false       |
-| category_id | references | foreign_key: true |
+* Services (job queues, cache servers, search engines, etc.)
 
-### Association
-- belongs_to :category
+* Deployment instructions
+
+* ...
